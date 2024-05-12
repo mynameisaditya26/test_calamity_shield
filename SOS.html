@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SOS.css">
+    <link rel="stylesheet" href="index.css">
+    <title>SOS</title>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><div class="dropdown">
+                <button class="dropbtn">Dashboard</button>
+                <div class="dropdown-content">
+                    <a href="#">Available Resources</a>
+                    <a href="#">Donations</a>
+                    <a href="#">Medical Support</a>
+                    <a href="#">All Time Helplines</a>
+                    <a href="#">Special Helplines</a>
+                </div></li>
+            <li><a href="./indexcs.html">Home</a></li>
+            <li><a href="./team.html">Rescue Team Signup</a></li>
+            <li style="float:right"><a class="active" href="./login.html">Login</a></li>
+          </ul>
+    </div>
+    <div class="upload">
+        <label for="input-file" id="drop-area">
+            <input type="file" accept="image/*" id="input-file" hidden>
+            <div id="img-view">
+                <img src="download_icon.png">
+                <p>Drag and drop or click here <br> to upload footage</p>
+                <span>Upload the footage fetched from Drone</span>
+            </div>
+        </label>
+
+    </div> 
+    <script src="script.js"></script>
+</body>
+</html>

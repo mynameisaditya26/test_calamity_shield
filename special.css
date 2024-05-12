@@ -1,0 +1,95 @@
+#crd{
+    width: 420px;
+    height:170px;
+    border-width:2px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#ehn{
+    width: 420px;
+    height:170px;
+    border-width:2px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    text-align: center;
+    direction: rtl;
+    position: absolute;
+    left: 800px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#hnff{
+    width: 420px;
+    height:170px;
+    border-width:2px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: 800px;
+}
+#hnfd{
+    width: 420px;
+    height:170px;
+    border-width:2px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    top: 550px;
+    left: 100px;
+}
+#hnfls{
+    width: 420px;
+    height:170px;
+    border-width:2px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    top: 765px;
+    left: 100px;
+}
+#hnft{
+    width: 420px;
+    height:170px;
+    border-width:2px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    top: 550px;
+    left: 800px;
+}
+#hnfe{
+    width: 420px;
+    height:170px;
+    border-width:2px;
+    border-color: black;
+    border-style:solid;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    left: 100px;
+}
+body{
+    position: relative;
+    background: linear-gradient(208.43deg, #ffffff -15.31%,#2f4f4f) ;
+}
+.abcd{
+    background-color: #BACD92;
+}
+.abcd:hover{
+    scale:1.1;
+    transition: linear 0.5s;
+    cursor: pointer;
+}

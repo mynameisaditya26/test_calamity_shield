@@ -1,0 +1,15 @@
+table, th {
+    border: 1px solid;
+    font-size: 35px;
+  }
+  td{
+    border: 1px solid;
+    font-size: 25px;
+
+  }
+  .rsc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
